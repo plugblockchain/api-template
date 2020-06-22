@@ -17,14 +17,14 @@
   },
   "homepage": "https://github.com/plugblockchain/api-template#readme",
   "resolutions": {
-    "@polkadot/types": "1.2.1",
-    "@polkadot/metadata": "1.2.1",
-    "@polkadot/api": "1.2.1",
-    "@polkadot/api-derive": "1.2.1",
-    "@polkadot/rpc-core": "1.2.1"
+    "@polkadot/types": "=1.8.1",
+    "@polkadot/metadata": "=1.8.1",
+    "@polkadot/api": "=1.8.1",
+    "@polkadot/api-derive": "=1.8.1",
+    "@polkadot/rpc-core": "=1.8.1"
   },
   "dependencies": {
-    "@plugnet/plug-api-types": "git+https://github.com/plugblockchain/plug-api-types.git#develop",
-    "@polkadot/api": "1.2.1"
+    "@plugnet/plug-api-types": "git+https://github.com/plugblockchain/plug-api-types.git#fix/12-and-references",
+    "@polkadot/api": "=1.8.1"
   }
 }
